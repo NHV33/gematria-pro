@@ -1,0 +1,51 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	  <title>gematria.pro</title>
+	  <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="main" id="main">
+
+      <div class="mainTitle">Gematria Pro</div>
+
+      <div class="topRow">
+        <button class="topRowButton" id="openButton">Gematria Methods</button>
+        <button class="topRowButton" id="calcDisplayButton">Hide Calculation</button>
+        <button class="topRowButton" id="displayModeButton">Search Mode</button>
+        <button class="topRowButton" id="filterButton">Filter</button>
+      </div>
+
+      <input class="textInput" id="textInput" placeholder="Type words, phrases, and/or numbers.">
+      <input class="textInput filter" id="filterInput" placeholder="Type numbers here to filter search results by value.">
+
+      <div class="results" id="results">
+
+      </div>
+
+      <div class="popUp" id="popUp">
+        <div class="titleBar">
+        <div class="titleBarBox">
+        <div class="toggleAllButton" id="toggleAllButton" on="off" style="background-color:red">Toggle All</div>
+
+        <div class="toggleAllButton" id="defaultButton" on="off">Default (Recommended)</div>
+        </div>
+
+        <div class="closeButton" id="closeButton">✖</div>
+        </div>
+
+        <div class="methodMenu" id="methodMenu">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+
+</html>
